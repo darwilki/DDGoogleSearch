@@ -95,7 +95,7 @@ public class gSearchTest1 {
 	@AfterMethod
 	public void teardown()
 	{ 
-			driver.quit();
+			driver.close();
 	} 
 		
 	
